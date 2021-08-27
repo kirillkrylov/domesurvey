@@ -1,0 +1,189 @@
+/* /Pages/CreatioSurvey.razor.rz.scp.css */
+.gradient-custom-2[b-inxz5z9av1] {
+	/* fallback for old browsers */
+	background: #fccb90;
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+	.gradient-form[b-inxz5z9av1] {
+		height: 100%h !important;
+	}
+}
+
+@media (min-width: 769px) {
+	.gradient-custom-2[b-inxz5z9av1] {
+		border-top-right-radius: .3rem;
+		border-bottom-right-radius: .3rem;
+	}
+
+	.p-md-5[b-inxz5z9av1] {
+		padding-bottom: 0rem !important;
+	}
+}
+/* /Pages/Question.razor.rz.scp.css */
+body[b-gew1z7kz3q] {
+}
+/* /Pages/Success.razor.rz.scp.css */
+.gradient-custom-2[b-bt7ulcggn5] {
+	/* fallback for old browsers */
+	background: #fccb90;
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+	.gradient-form[b-bt7ulcggn5] {
+		height: 100%h !important;
+	}
+}
+
+@media (min-width: 769px) {
+	.gradient-custom-2[b-bt7ulcggn5] {
+		border-top-right-radius: .3rem;
+		border-bottom-right-radius: .3rem;
+	}
+
+	.p-md-5[b-bt7ulcggn5] {
+		padding-bottom: 0rem !important;
+	}
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-4a1eurp7vh] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-4a1eurp7vh] {
+    flex: 1;
+}
+
+.sidebar[b-4a1eurp7vh] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-4a1eurp7vh] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-4a1eurp7vh]  a, .top-row .btn-link[b-4a1eurp7vh] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-4a1eurp7vh] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-4a1eurp7vh] {
+        display: none;
+    }
+
+    .top-row.auth[b-4a1eurp7vh] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-4a1eurp7vh], .top-row .btn-link[b-4a1eurp7vh] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-4a1eurp7vh] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-4a1eurp7vh] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-4a1eurp7vh] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-4a1eurp7vh] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-w2ot5q73fm] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-w2ot5q73fm] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-w2ot5q73fm] {
+    font-size: 1.1rem;
+}
+
+.oi[b-w2ot5q73fm] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-w2ot5q73fm] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-w2ot5q73fm] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-w2ot5q73fm] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-w2ot5q73fm]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-w2ot5q73fm]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-w2ot5q73fm]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-w2ot5q73fm] {
+        display: none;
+    }
+
+    .collapse[b-w2ot5q73fm] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
